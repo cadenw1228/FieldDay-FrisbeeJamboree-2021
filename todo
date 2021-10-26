@@ -1,0 +1,12 @@
+Framework:
+    IO sensor implementation
+    PID control + profiles
+    Limelight implementation
+    Pathweaver implementation
+    Auto selection
+    Logging
+    Reflection
+    Static out
+
+Subsystems:
+    Everything
