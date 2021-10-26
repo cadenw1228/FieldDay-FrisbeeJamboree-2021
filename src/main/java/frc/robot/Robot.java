@@ -14,9 +14,11 @@ public class Robot extends TimedRobot {
     Out.Init("XML/Configurations/Prodbot.xml");
     Subsystems.add(new Chassis(), SubsystemID.CHASSIS);
     Subsystems.add(new Shooter(), SubsystemID.SHOOTER);
-    Subsystems.add(new Climber(), SubsystemID.CLIMBER);
-    //Subsystems.add(new ColorWheel(), SubsystemID.PANEL);
+    Subsystems.add(new Arms(), SubsystemID.ARMS);
     Subsystems.add(new Intake(), SubsystemID.INTAKE);
+    Subsystems.add(new Hopper(), SubsystemID.HOPPER);
+    //Subsystems.add(new ColorWheel(), SubsystemID.PANEL);
+    
     Subsystems.robotInit();
   }
 

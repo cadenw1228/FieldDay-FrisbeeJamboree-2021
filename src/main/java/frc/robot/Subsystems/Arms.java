@@ -1,15 +1,15 @@
 package frc.robot.Subsystems;
-
+//
 import frc.robot.Framework.Subsystem;
 import frc.robot.Framework.IO.In.In;
 import frc.robot.Framework.IO.Out.Out;
 
-public class Intake implements Subsystem{
-    private In input = new In(SubsystemID.INTAKE);
-    private Out output = new Out(SubsystemID.INTAKE);
+public class Arms implements Subsystem{
+    private In input = new In(SubsystemID.ARMS);
+    private Out output = new Out(SubsystemID.ARMS);
 
     public void robotInit(){
-        System.out.println("Intake init");
+        System.out.println("Arms init");
     }
 
     public void robotPeriodic(){

@@ -3,7 +3,8 @@ package frc.robot.Subsystems;
 public enum SubsystemID{
     CHASSIS,
     SHOOTER,
-    CLIMBER,
+    ARMS,
     INTAKE,
-    PANEL
+    HOPPER,
+    //PANEL
 }
